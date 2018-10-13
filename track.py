@@ -35,7 +35,7 @@ def tracking(frame, greenboundary, KNOWN_PIXEL_WIDTH, KNOWN_WIDTH = 7, KNOWN_DIS
     is_ball = False
     x, y, radius = None, None, None
 
-    # convert colr scheme
+    # convert color scheme
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
          
     # construct a mask for the color "green", then perform a series of 

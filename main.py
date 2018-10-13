@@ -21,7 +21,7 @@ API_SECRET = '67doedp6s4dcnm5kmuhkgetj8p'
 client = FaceClient(API_KEY, API_SECRET)
 metrics = ['mood', 'smiling']
 
-domain_name = 'loganrookspi.ddns.net'
+domain_name = 'sherrywangspi.ddns.net'
 filename = "/var/www/html/temp.jpg"
 img_addr = 'http://{}/temp.jpg'.format(domain_name)
 
